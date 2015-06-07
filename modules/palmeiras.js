@@ -111,8 +111,8 @@ class Palmeiras {
         this.ELEMENTS.pSymbolOutsideShield.moveTo(this.ratioValue(132), this.ratioValue(86));
         this.ELEMENTS.pSymbolOutsideShield.bezierCurveTo(this.ratioValue(132), this.ratioValue(92), this.ratioValue(205), this.ratioValue(58), this.ratioValue(205), this.ratioValue(48));
         this.ELEMENTS.pSymbolOutsideShield.bezierCurveTo(this.ratioValue(205), this.ratioValue(58), this.ratioValue(278), this.ratioValue(92), this.ratioValue(278), this.ratioValue(86));
-        this.ELEMENTS.pSymbolOutsideShield.bezierCurveTo(this.ratioValue(274), this.ratioValue(154), this.ratioValue(205), this.ratioValue(226), this.ratioValue(205), this.ratioValue(222));
-        this.ELEMENTS.pSymbolOutsideShield.bezierCurveTo(this.ratioValue(205), this.ratioValue(222), this.ratioValue(134), this.ratioValue(152), this.ratioValue(132), this.ratioValue(86));
+        this.ELEMENTS.pSymbolOutsideShield.bezierCurveTo(this.ratioValue(274), this.ratioValue(157), this.ratioValue(205), this.ratioValue(224), this.ratioValue(204), this.ratioValue(221));
+        this.ELEMENTS.pSymbolOutsideShield.bezierCurveTo(this.ratioValue(206), this.ratioValue(223), this.ratioValue(132), this.ratioValue(160), this.ratioValue(132), this.ratioValue(86));
         
         this.ELEMENTS.pSymbolOutsideShield.lineWidth = this.ratioValue(2);
         this.ELEMENTS.pSymbolOutsideShield.strokeStyle = this.SETTINGS.greenPalmeiras;
