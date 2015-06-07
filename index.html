@@ -20,23 +20,19 @@
 </head>
 <body>
     <section id="main">
-        <canvas id="greencircle-outside" width="800" height="800" style="z-index: 1"></canvas>
-        <canvas id="whitecircle-outside" width="800" height="800" style="z-index: 2"></canvas>
-        <canvas id="greencircle-inside" width="800" height="800" style="z-index: 3"></canvas>
-
-        <canvas id="psymbol-whitecircle-outside" width="800" height="800" style="z-index: 4"></canvas>
-        <canvas id="psymbol-greencircle-line" width="800" height="800" style="z-index: 5"></canvas>
+        <canvas id="greencircle-outside" width="820" height="820" style="z-index: 1"></canvas>
+        <canvas id="psymbol-whitecircle-outside" width="820" height="820" style="z-index: 2"></canvas>
+        <canvas id="psymbol-whitecircle-inside" width="820" height="820" style="z-index: 3"></canvas>
         <canvas id="psymbol-outside-shield" width="800" height="800" style="z-index: 6"></canvas>
-        <canvas id="psymbol-inside-shield" width="800" height="800" style="z-index: 7"></canvas>
+        <!-- <canvas id="psymbol-inside-shield" width="800" height="800" style="z-index: 7"></canvas>
         <canvas id="psymbol-line" width="800" height="800" style="z-index: 8"></canvas>
 
-        <canvas id="psymbol" width="800" height="800" style="z-index: 9"></canvas>
+        <canvas id="psymbol" width="800" height="800" style="z-index: 9"></canvas> -->
 
     </section>
-    <script src="js/palmeiras.js" type="text/javascript"></script>
-    <script>
-        var palmeiras = new app.Palmeiras({ratio: 2});
-        palmeiras.initialize();
+    <script src="dist/module.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var palmeiras = new window.Palmeiras({ratio: 2});
     </script>
 </body>
 </html>
