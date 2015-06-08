@@ -44,7 +44,7 @@ var Palmeiras = (function () {
         this.drawPSymbolInsizeWhiteCircle();
         this.drawpSymbolOutsideShield();
         /*this.drawpSymbolInsideShield();
-         this.drawPSymbolLines();
+          this.drawPSymbolLines();
         this.drawPSymbol();*/
     }
 
@@ -109,6 +109,7 @@ var Palmeiras = (function () {
      */
 
     Palmeiras.prototype.drawpSymbolOutsideShield = function drawpSymbolOutsideShield() {
+        // Outside shield
         this.ELEMENTS.pSymbolOutsideShield.beginPath();
         this.ELEMENTS.pSymbolOutsideShield.lineJoin = 'bevel';
         this.ELEMENTS.pSymbolOutsideShield.moveTo(this.ratioValue(128), this.ratioValue(82));
@@ -121,6 +122,7 @@ var Palmeiras = (function () {
         this.ELEMENTS.pSymbolOutsideShield.strokeStyle = this.SETTINGS.greenPalmeiras;
         this.ELEMENTS.pSymbolOutsideShield.stroke();
 
+        // Inside shield
         this.ELEMENTS.pSymbolOutsideShield.beginPath();
         this.ELEMENTS.pSymbolOutsideShield.lineJoin = 'bevel';
         this.ELEMENTS.pSymbolOutsideShield.moveTo(this.ratioValue(132), this.ratioValue(86));

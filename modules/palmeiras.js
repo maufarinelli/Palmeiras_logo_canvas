@@ -94,6 +94,7 @@ class Palmeiras {
      * Draw the green outside line of the shield
      */
     drawpSymbolOutsideShield() {
+        // Outside shield
         this.ELEMENTS.pSymbolOutsideShield.beginPath();
         this.ELEMENTS.pSymbolOutsideShield.lineJoin = 'bevel';
         this.ELEMENTS.pSymbolOutsideShield.moveTo(this.ratioValue(128), this.ratioValue(82));
@@ -106,6 +107,7 @@ class Palmeiras {
         this.ELEMENTS.pSymbolOutsideShield.strokeStyle = this.SETTINGS.greenPalmeiras;
         this.ELEMENTS.pSymbolOutsideShield.stroke();
 
+        // Inside shield
         this.ELEMENTS.pSymbolOutsideShield.beginPath();
         this.ELEMENTS.pSymbolOutsideShield.lineJoin = 'bevel';
         this.ELEMENTS.pSymbolOutsideShield.moveTo(this.ratioValue(132), this.ratioValue(86));
